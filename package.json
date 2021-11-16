@@ -1,0 +1,30 @@
+{
+  "name": "server-for-fun",
+  "version": "0.0.1",
+  "description": "Awesome project developed with TypeORM.",
+  "devDependencies": {
+    "ts-node": "3.3.0",
+    "@types/node": "^8.0.29",
+    "typescript": "3.3.3333"
+  },
+  "dependencies": {
+    "typeorm": "0.2.40",
+    "reflect-metadata": "^0.1.10",
+    "pg": "^8.4.0"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KirbyPaint/server-for-fun.git"
+  },
+  "author": "KirbyPaint",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KirbyPaint/server-for-fun/issues"
+  },
+  "homepage": "https://github.com/KirbyPaint/server-for-fun#readme"
+}
